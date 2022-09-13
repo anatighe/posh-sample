@@ -1,10 +1,4 @@
 /* =================================================================== 
- * Augustine Main Stylesheet
- * Template Ver. 1.0.0
- * 03-16-2022
- * ------------------------------------------------------------------
- *
- * TOC:
  * # SETTINGS
  *      ## fonts
  *      ## colors
@@ -3626,13 +3620,13 @@ img.u-pull-left {
 
 
 /* ===================================================================
- * # WORKS
+ * # CALENDAR
  *
  *
  * ------------------------------------------------------------------- */
-.s-works {
-    padding-top      : calc(6 * var(--space));
-    padding-bottom   : calc(5.5 * var(--space));
+.calendar {
+    padding-top      : calc(2 * var(--space));
+    padding-bottom   : calc(4 * var(--space));
     background-color : white;
 }
 
@@ -3984,7 +3978,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-footer {
-    padding-top    : calc(6 * var(--space));
+    padding-top    : calc(4 * var(--space));
     padding-bottom : var(--vspace-2_5);
     font-weight    : 300;
     position       : relative;
